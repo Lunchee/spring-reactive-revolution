@@ -1,4 +1,5 @@
-target/
+/spring-reactive-revolution-server/target/
+/spring-reactive-revolution-client/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -17,3 +18,5 @@ target/
 *.iws
 *.iml
 *.ipr
+
+**/.DS_Storeª
