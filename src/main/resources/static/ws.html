@@ -1,0 +1,17 @@
+<html lang="en">
+<body>
+<script>
+    window.addEventListener('load', function () {
+        let ws = new WebSocket('ws://localhost:54321/ws/greetings');
+
+        ws.addEventListener('open', function () {
+            ws.send('Pichu');
+        });
+
+        ws.addEventListener('message', function (event) {
+            console.log(event.data);
+        });
+    });
+</script>
+</body>
+</html>
